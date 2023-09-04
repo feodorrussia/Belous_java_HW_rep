@@ -1,2 +1,5 @@
 # Belous_java_HW_rep
-My repository for Java homework programs
+Repository for Java homework programs
+
+Belous Fyodor 5030102/10101
+2023
