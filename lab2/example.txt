@@ -1,0 +1,3 @@
+// Hello, World!
+It's Java lab2 example
+Created by Belous Fyodor
