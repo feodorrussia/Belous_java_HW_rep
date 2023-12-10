@@ -1,0 +1,13 @@
+Работа с приложением
+- Откройте командную строку
+- Перейдите в директорию приложения
+- Введите:
+    cd src
+- Для запуска приложения введите команду формата:
+    java HuffmanApp <encode|decode> <inputFile - путь и имя файла с расширением> <outputFileName - путь и имя файла без расширения>
+
+Примеры команд запуска
+- Сжатие (кодирование):
+    java HuffmanApp encode Test\small_test.txt Test\encoded_1
+- Разархивация (декодирование):
+    java HuffmanApp decode Test\encoded_2.ark Test\decoded_2
