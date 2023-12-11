@@ -47,7 +47,7 @@ public class HuffmanApp {
         for (char c : content.toCharArray())
             encodedData.append(huffmanCode.get(c));
 
-        outputFileName += ".ark";
+        outputFileName += ".huff";
         FileWriter.write(inputFileName, outputFileName, huffmanCode, encodedData.toString());
     }
 
