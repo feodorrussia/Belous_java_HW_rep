@@ -7,7 +7,10 @@
     java HuffmanApp <encode|decode> <inputFile - путь и имя файла с расширением> <outputFileName - путь и имя файла без расширения>
 
 Примеры команд запуска
-- Сжатие (кодирование):
-    java HuffmanApp encode Test\small_test.txt Test\encoded_1
-- Разархивация (декодирование):
-    java HuffmanApp decode Test\encoded_2.ark Test\decoded_2
+- Сжатие (кодирование), команда encode:
+    java HuffmanApp encode Test\hello_test_en.txt
+    java HuffmanApp encode Test\big_test.txt
+- Разархивация (декодирование), команда decode:
+    java HuffmanApp decode hello_test_en.huff
+- Информация о сжатом файле, команда info:
+    java HuffmanApp info hello_test_en.huff
