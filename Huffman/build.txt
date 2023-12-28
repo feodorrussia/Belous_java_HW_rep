@@ -1,0 +1,14 @@
+Сборка приложения
+
+Требования:
+Установлен пакет Java Development Kit (JDK) версии 8 или выше.
+
+Шаги сборки:
+- Откройте командную строку
+- Выберите директорию установки
+- Используйте команду Git для клонирования репозитория:
+    git clone https://github.com/feodorrussia/Belous_java_HW_rep.git
+- Введите:
+    cd Belous_java_HW_rep\Huffman\src
+- Используйте команду Javac для компиляции Java-кода:
+    javac HuffmanApp.java
